@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RailTech Solutions</title>
+    <!-- Use Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <script>
+        // Custom Tailwind configuration to define our primary color
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rail-primary': '#800000',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation Bar -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo/Company Name -->
+            <div class="flex items-center space-x-2">
+                <!-- Replaced SVG with a PNG image logo -->
+                <img src="railtech logo.png" alt="RailTech Logo" class="h-8 w-8 rounded-full">
+                <span class="text-2xl font-bold text-gray-900">RailTech</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Under Construction Section -->
+        <section class="bg-white py-16 sm:py-24 text-center">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                    Website Under Construction
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                    We're working hard to bring you a new and improved website. In the meantime, please feel free to reach out to us with any inquiries.
+                </p>
+                <div class="inline-flex items-center space-x-2 bg-gray-100 text-gray-800 font-semibold py-3 px-6 rounded-full shadow-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>contact@railtech.com</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; 2024 RailTech Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
